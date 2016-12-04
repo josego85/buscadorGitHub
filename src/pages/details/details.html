@@ -1,0 +1,14 @@
+<ion-navbar *navbar>
+    <ion-title>
+        {{ repo.name }}
+    </ion-title>
+</ion-navbar>
+
+<ion-content>
+    <div padding>
+        <button ion-button navPop>
+          Atr&aacute;s
+      </button>
+    </div>
+    <div padding [innerHTML]="readme"></div>
+</ion-content>
